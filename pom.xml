@@ -19,7 +19,7 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>1.2.15</version>
+            <version>1.2.16</version>
         </dependency>
         <!-- 添加testNG依赖 -->
         <dependency>
@@ -60,6 +60,7 @@
         </dependency>
     </dependencies>
     <build>
+        <defaultGoal>compile</defaultGoal>
         <!-- 新版本maven配合这个标签使用指定代码目录 -->
         <testSourceDirectory>src</testSourceDirectory>
         <resources>
@@ -100,5 +101,7 @@
                 </configuration>
             </plugin>
         </plugins>
+
     </build>
+
 </project>
